@@ -15,5 +15,9 @@ public class Main {
       for (int b = 10; b > -11; b --) {
           System.out.println("Итерация цикла " + b);
       }
+      // Високосный год
+      for (int c = 1904; c < 2097; c = c + 4) {
+          System.out.println(c + " год является высокосным.");
+      }
     }
 }
